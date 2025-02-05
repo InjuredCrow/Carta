@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+body {
+    background-color: #0ebeff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'EB Garamond', serif;
+}
+
+.container {
+    background: linear-gradient(to right, #f1ddf5, #d598e1);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    max-height: 700px;
+    overflow-y: auto;
+    text-align: center;
+}
+
+.letter h1 {
+    font-family: "Indie Flower", cursive;
+    font-size: 32px;
+    color:  #e450bb;
+}
+
+.letter h2 {
+    font-family: "Indie Flower", cursive;
+    font-size: 20px;
+    color: #e450bb;
+}
+
+.letter p {
+    font-size: 21px;
+    color: #333;
+    line-height: 1.4;
+    margin-bottom: 20px; /* Espaço entre os parágrafos */
+}
+
+/* Adicionando responsividade */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        max-width: 90%;
+    }
+
+    .letter h1 {
+        font-size: 28px;
+    }
+
+    .letter h2 {
+        font-size: 18px;
+    }
+
+    .letter p {
+        font-size: 18px;
+    }
+}
